@@ -1,0 +1,242 @@
+/* SIMPLE RESET */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* FONT STYLES */
+
+html, aside ol li:nth-of-type(2) {
+
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	line-height: 1.125em;
+
+}
+
+h1, h2, h3, h4, h5, h6, aside ol {
+
+	font-family: 'Oswald', sans-serif;
+
+}
+
+a:hover {
+    color: orange;
+}
+
+h1, h2, h3, p, a {
+    color: #373737;
+}
+
+/* STUDENT STYLES */
+
+html {
+    margin: auto;
+    width: 960px;
+    background-color: #dcdcdc;
+}
+
+body {
+  padding: 0 10%;
+  width: auto;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 15px 0;
+  position: relative;
+  top: 15px;
+  margin-bottom: 75px;
+  height: 175px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 58px;
+  text-transform: uppercase;
+  position: relative;
+  top: 50px;
+}
+header a {
+  text-decoration: none;
+}
+
+/* navigation */
+
+header nav {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+header nav li {
+    float: left;
+}
+
+header nav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+/*section*/
+
+section {
+  float: left;
+  width: 70%;
+  padding-right: 5%;
+}
+
+section img {
+  width: 500px;
+  height: auto;
+  z-index: -1;
+}
+
+section h1 {
+  font-size: 52px;
+  line-height: 52px;
+  margin-bottom: 52px;
+}
+
+h2:nth-child(1) span:first-of-type {
+  background-color:orange;
+  padding: 22px;
+  margin-top: 50px;
+  font-size: 25px;
+  position: absolute;
+  left: 25%;
+  border-radius: 50%;
+	width: 90px;
+	height: 90px;
+  color: white;
+  font-weight: 200;
+  transform:rotateZ(-15deg);
+  box-shadow: 5px 5px 5px #373737;
+}
+
+section h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+h2:nth-child(1) span:last-of-type {
+  font-weight: 200;
+  font-size: 30px;
+}
+
+section p {
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+
+/*aside*/
+
+aside {
+  float: right;
+  width: 25%;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: 200px;
+}
+
+aside h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+aside ol li:nth-child(2) {
+  font-size: 10px;
+  text-decoration: none;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/*trying to figure out how to move the caption. I have selected the correct list items, but can't figure out how to move the text without also moving the img. */
+
+aside ol li:nth-child(n+3):nth-child(-n+12) {
+    padding: 20px 0;
+    font-weight: 200;
+}
+
+/* footer */
+
+footer {
+  clear: both;
+  padding-top: 75px;
+  padding-bottom: 20px;
+  overflow: auto;
+}
+
+footer h1 {
+  font-size: 16px;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+footer nav {
+  margin-top: 15px;
+  float: left;
+  width: 30%;
+}
+
+footer nav li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: normal;
+}
+
+footer nav ul {
+  list-style-type: none;
+}
+
+footer ol h2 {
+  font-size: 14px;
+  position: relative;
+  right: 15px;
+  padding-bottom: 5px;
+}
+
+footer ol li {
+  font-size: 12px;
+  line-height: 8px;
+}
+
+footer ol li a {
+  text-decoration: none;
+}
+
+footer ol {
+  float: left;
+  width: 30%;
+  margin-top: 18px;
+}
