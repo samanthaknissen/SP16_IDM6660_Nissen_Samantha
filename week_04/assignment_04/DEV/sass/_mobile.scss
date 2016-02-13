@@ -1,0 +1,94 @@
+@media screen and (max-width: 480px) {
+  html {
+  	background-color: orange;
+  }
+  body {
+    width: 100%;
+  }
+  header  {
+    background-color: orange;
+    width: 90%
+  }
+  header h1 {
+  	font-size: 1.85em;
+  }
+  header h1 a:hover {
+    color: #fff;
+  }
+  header nav ul li {
+  	margin: 0;
+  }
+  header li a {
+  	background-color: white;
+    width: 48%;
+    padding: 2% 10%;
+    margin: 3% 1%;
+    display: block;
+    float: left;
+  }
+  section {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+  }
+  section p {
+    font-size: 1.1em;
+    line-height: 1em;
+    padding: 2% 5%;
+  }
+  section h1 {
+  	font-size: 1.875em;
+  	line-height: 1em;
+  	margin: 50% 5% 20% 5%;
+  }
+  section article h2 {
+  	font-size: 2em;
+    margin: 3% 5%;
+  }
+  aside {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  aside ol li:nth-of-type(2) {
+  	margin-bottom: 3%;
+  }
+  aside ol li:nth-child(n+3) {
+    width: 44%;
+    padding: 2% 0;
+    margin: 3%;
+    float: left;
+    font-size: 1em;
+  }
+  footer a:hover {
+    color: #fff;
+  } 
+  footer {
+    padding: 0 2%;
+  }
+  footer p {
+    font-size: 1em;
+    margin: 2% 0 10% 0;
+  }
+  footer nav {
+    margin-top: 1.5625;
+    float: none;
+    width: 100%;
+    padding: 0 5%;
+  }
+  footer ol {
+    float: none;
+    width: 100%;
+    padding: 0 10%;
+  }
+  footer ol li {
+    font-size: 1em;
+    padding: 0.5%;
+  }
+  footer ol h2 {
+    padding-top: 5%;
+  }
+  footer nav li a {
+    font-size: 1em;
+  }
+}
