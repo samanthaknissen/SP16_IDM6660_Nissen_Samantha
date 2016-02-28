@@ -1,0 +1,77 @@
+@media screen and (min-width: 960px) {
+
+  aside {
+    float: left;
+    width: 28%;
+    padding: 1% 1% 3% 1%;
+    padding-left: 2%;
+  }
+
+  /*main section*/
+ 
+  section {
+    float: right;
+    width: 70%;
+    padding-left: 5%;
+  }
+  article {
+    width: 42%;
+    float: left;
+    padding: 2%;
+    margin: 2%;
+  }
+
+  #btl {
+    background-color: #184D3E;
+    color: #fff;
+    opacity: 0.9;
+    padding-left: 2%;
+  }
+
+  #btl:hover {
+    background-color: #184D3E;
+    opacity: 1;
+  }
+
+  #dl {
+    background-color: #184D3E;
+    color: #fff;
+    opacity: 0.9;
+    padding-left: 2%;
+  }
+
+  #dl:hover {
+    background-color: #184D3E;
+    opacity: 1;
+  }
+
+  #reading-tours {
+    background-color: #184D3E;
+    color: #fff;
+    opacity: 0.9;
+    padding-left: 2%;
+  }
+
+  #reading-tours:hover {
+    background-color: #184D3E;
+    opacity: 1;
+  }
+
+  #silk-routes {
+    background-color: #184D3E;
+    color: #fff;
+    opacity: 0.9;
+    padding-left: 2%;
+  }
+
+  #silk-routes:hover {
+    background-color: #184D3E;
+    opacity: 1;
+  }
+
+  footer {
+    background-color: #d3d3d3;
+    color: #000;
+  }
+
+}
