@@ -1,0 +1,136 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  width: auto;
+  background-color: #eceeef;
+}
+
+/* universal */
+
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+
+.tile {
+  min-height: 500px;
+  background: #ECEEEF;
+  margin: 1em 0 0 2em;
+  text-align: center;
+}
+
+h1, h2, h3, p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: #9C854C;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  text-decoration: line-through;
+  color: #ffffff;
+}
+
+.button {
+    background-color: #661B27;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+/* header */
+
+header {
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+#logo {
+ width: 175px;
+ position: absolute;
+ top: 5%;
+ left: 50%;
+ margin-right: -50%;
+ transform: translate(-50%, -50%)
+} 
+
+/* tile 1 */
+
+#lead {
+  font-weight: 600;
+  color: #9C854C;
+}
+
+#album {
+  max-width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+
+
+/* tile 2*/
+
+#video {
+  margin-top: 15.5em;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+/* tile 3 */
+
+
+#booking a {
+  color: #ffffff;
+}
+
+#dates {
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+i {
+  color: #9C854C;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+
+}
