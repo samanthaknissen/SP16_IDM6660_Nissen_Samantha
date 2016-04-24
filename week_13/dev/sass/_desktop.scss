@@ -1,0 +1,38 @@
+@media screen and (min-width: 920px) {
+
+  header {
+    margin-bottom: 60px;
+  }
+
+  /* ==============
+    Article Desktop
+   ============== */
+
+  article {
+    width: 60%;
+  }
+
+  aside p {
+      padding-top: 30px;
+    }
+
+/* ==============
+  About Desktop
+ ============== */
+
+  .page-header {
+    margin-left: 20%;
+  }
+  #capabilities {
+    font-size: 2.5em;
+  }
+  #development {
+    padding: 2%;
+    font-size: 1.5em;
+  }
+  #design {
+    padding: 2%;
+    font-size: 1.5em;
+  }
+
+}

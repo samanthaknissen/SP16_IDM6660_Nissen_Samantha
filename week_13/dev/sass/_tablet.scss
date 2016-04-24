@@ -1,0 +1,91 @@
+@media screen and (min-width: 615px) {
+  /* ==============
+    Tablet Article
+   ============== */
+
+  article {
+    width: 90%;
+  }
+
+  article p {
+    font-size: 2em;
+  }
+
+  article li {
+    font-size: 3em;
+  }
+
+  /* ==============
+    Project sample on tablets
+   ============== */
+
+  aside{
+    p {
+      font-size: 2em;
+    }
+   }
+
+   /* ==============
+     About Page
+    ============== */
+
+   article {
+     width: 90%;
+     margin-top: 5px;
+   }
+
+   article p {
+     text-align: left;
+     font-size: 1em;
+   }
+
+   .page-header {
+     margin-left: 5%;
+     margin-top: 120px;
+   }
+
+   #coffee {
+     width: 90%;
+     margin: $photo-margin;
+   }
+
+   /* ==============
+     About Page
+    ============== */
+
+   article p {
+     font-size: 1.5em;
+   }
+
+
+   #coffee {
+     width: 50%;
+     margin: $photo-margin;
+     float: left;
+   }
+
+   /* ==============
+     About - Capabilities
+    ============== */
+
+   #capabilities {
+       margin: $photo-margin;
+       margin-bottom: 0;
+   }
+
+   #design {
+       width: 35%;
+       margin: $photo-margin;
+       margin-left: 0;
+       float: right;
+   }
+
+   #development {
+       width: 35%;
+       margin: $photo-margin;
+       margin-top: 0;
+       float: right;
+
+   }
+
+}

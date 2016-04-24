@@ -1,0 +1,191 @@
+@media screen and (min-width: 0) {
+  /* ==============
+    MOBILE: Menu
+   ============== */
+   header {
+     padding: 5%;
+     margin-bottom: 40px;
+   }
+
+   header a {
+     text-decoration: none;
+     color: #000;
+   }
+
+   header h1 {
+     float: left;
+   }
+  /* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+nav a {
+    float: right;
+    margin-bottom: 10px;
+    padding: 3% 0 5% 5%;
+
+    text-align: center;
+    text-decoration: none;
+
+}
+
+nav a:hover,
+nav a:visited {
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+  Homepage Article
+ ============== */
+
+article {
+  background-color: #fff;
+  width: 75%;
+  margin: auto;
+  padding: 5%;
+}
+
+article p {
+  text-align: center;
+  font-size: 1.15em;
+}
+
+article li {
+  font-size: 2em;
+  text-align: center;
+  list-style-type: none;
+  padding: 4%;
+}
+
+/* ==============
+  Project sample
+ ============== */
+
+aside {
+  margin: 5%;
+  #sunset {
+    width: 55%;
+    float: left;
+    margin: $photo-margin;
+    margin-left: 0;
+  }
+  p {
+    margin-top: 5%;
+    padding-top: 20px;
+    font-size: 1.2em;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  #ny {
+    width: 35%;
+    float: right;
+    margin: $photo-margin;
+    margin-left: 0;
+  }
+  #halfloves {
+    width: 49.5%;
+    float: right;
+    margin: $photo-margin;
+    margin-top: 0;
+  }
+ }
+ /* ==============
+   Footer
+  ============== */
+footer {
+  background-color: $gray;
+  margin-top: 5%;
+  clear: both;
+  height: 75px;
+  p, a {
+      text-align: center;
+      color: #fff;
+      text-decoration: none;
+      padding-top: 20px;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+/* ==============
+  About Page
+ ============== */
+
+article {
+  width: 90%;
+  margin-top: 5px;
+}
+
+article p {
+  text-align: left;
+  font-size: 1em;
+}
+
+.page-header {
+  margin-left: 5%;
+    margin-top: 120px;
+}
+
+#coffee {
+  width: 90%;
+  margin: $photo-margin;
+}
+
+/* ==============
+  About - Capabilities
+ ============== */
+
+#capabilities {
+  margin-left: 5%;
+}
+
+#design {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+
+  article p {
+    text-align: left;
+  }
+
+  li {
+    font-size: 1em;
+    text-align: left;
+    padding: inherit;
+  }
+}
+
+#development {
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+
+  article p {
+    text-align: left;
+  }
+
+  li {
+    font-size: 1em;
+    text-align: left;
+    padding: inherit;
+  }
+}
+
+}

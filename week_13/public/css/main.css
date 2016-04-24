@@ -1,0 +1,263 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: auto; }
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  width: 100%;
+  width: auto;
+  background-color: #F8F28E; }
+
+h1, h2, h3, h4, p, li, a {
+  font-family: Calibri, Candara, Segoe, Segoe UI, "Actor", Arial, sans-serif; }
+
+@media screen and (min-width: 0) {
+  /* ==============
+    MOBILE: Menu
+   ============== */
+  header {
+    padding: 5%;
+    margin-bottom: 40px; }
+
+  header a {
+    text-decoration: none;
+    color: #000; }
+
+  header h1 {
+    float: left; }
+
+  /* ==============
+    MOBILE: Menu
+   ============== */
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+
+  nav a {
+    float: right;
+    margin-bottom: 10px;
+    padding: 3% 0 5% 5%;
+    text-align: center;
+    text-decoration: none; }
+
+  nav a:hover {
+    text-decoration: underline; }
+
+  /* ==============
+    Homepage Article
+   ============== */
+  article {
+    background-color: #fff;
+    width: 75%;
+    margin: auto;
+    padding: 5%; }
+
+  article p {
+    text-align: center;
+    font-size: 1.15em; }
+
+  article li {
+    font-size: 2em;
+    text-align: center;
+    list-style-type: none;
+    padding: 4%; }
+
+  /* ==============
+    Project sample
+   ============== */
+  aside {
+    margin: 5%; }
+    aside #sunset {
+      width: 55%;
+      float: left;
+      margin: 5%;
+      margin-left: 0; }
+    aside p {
+      margin-top: 5%;
+      padding-top: 20px;
+      font-size: 1.2em; }
+    aside a {
+      color: #000;
+      text-decoration: none; }
+    aside a:hover {
+      text-decoration: underline; }
+    aside #ny {
+      width: 35%;
+      float: right;
+      margin: 5%;
+      margin-left: 0; }
+    aside #halfloves {
+      width: 49.5%;
+      float: right;
+      margin: 5%;
+      margin-top: 0; }
+
+  /* ==============
+    Footer
+   ============== */
+  footer {
+    background-color: #363735;
+    margin-top: 5%;
+    clear: both;
+    height: 75px; }
+    footer p, footer a {
+      text-align: center;
+      color: #fff;
+      text-decoration: none;
+      padding-top: 20px; }
+    footer a:hover {
+      text-decoration: underline; }
+
+  /* ==============
+    About Page
+   ============== */
+  article {
+    width: 90%;
+    margin-top: 5px; }
+
+  article p {
+    text-align: left;
+    font-size: 1em; }
+
+  .page-header {
+    margin-left: 5%;
+    margin-top: 120px; }
+
+  #coffee {
+    width: 90%;
+    margin: 5%; }
+
+  /* ==============
+    About - Capabilities
+   ============== */
+  #capabilities {
+    margin-left: 5%; }
+
+  #design {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px; }
+    #design article p {
+      text-align: left; }
+    #design li {
+      font-size: 1em;
+      text-align: left;
+      padding: inherit; }
+
+  #development {
+    width: 90%;
+    margin: auto;
+    margin-top: 5%; }
+    #development article p {
+      text-align: left; }
+    #development li {
+      font-size: 1em;
+      text-align: left;
+      padding: inherit; } }
+@media screen and (min-width: 615px) {
+  /* ==============
+    Tablet Article
+   ============== */
+  article {
+    width: 90%; }
+
+  article p {
+    font-size: 2em; }
+
+  article li {
+    font-size: 3em; }
+
+  /* ==============
+    Project sample on tablets
+   ============== */
+  aside p {
+    font-size: 2em; }
+
+  /* ==============
+    About Page
+   ============== */
+  article {
+    width: 90%;
+    margin-top: 5px; }
+
+  article p {
+    text-align: left;
+    font-size: 1em; }
+
+  .page-header {
+    margin-left: 5%;
+    margin-top: 120px; }
+
+  #coffee {
+    width: 90%;
+    margin: 5%; }
+
+  /* ==============
+    About Page
+   ============== */
+  article p {
+    font-size: 1.5em; }
+
+  #coffee {
+    width: 50%;
+    margin: 5%;
+    float: left; }
+
+  /* ==============
+    About - Capabilities
+   ============== */
+  #capabilities {
+    margin: 5%;
+    margin-bottom: 0; }
+
+  #design {
+    width: 35%;
+    margin: 5%;
+    margin-left: 0;
+    float: right; }
+
+  #development {
+    width: 35%;
+    margin: 5%;
+    margin-top: 0;
+    float: right; } }
+@media screen and (min-width: 920px) {
+  header {
+    margin-bottom: 60px; }
+
+  /* ==============
+    Article Desktop
+   ============== */
+  article {
+    width: 60%; }
+
+  aside p {
+    padding-top: 30px; }
+
+  /* ==============
+    About Desktop
+   ============== */
+  .page-header {
+    margin-left: 20%; }
+
+  #capabilities {
+    font-size: 2.5em; }
+
+  #development {
+    padding: 2%;
+    font-size: 1.5em; }
+
+  #design {
+    padding: 2%;
+    font-size: 1.5em; } }
+
+/*# sourceMappingURL=main.css.map */
