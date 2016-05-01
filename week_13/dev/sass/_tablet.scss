@@ -1,22 +1,29 @@
 @media screen and (min-width: 615px) {
   /* ==============
-    Tablet Article
+    TABLET: Menu
+   ============== */
+
+  header a {
+    font-size: 1.25em;
+  }
+
+  /* ==============
+    Homepage Tablet Article
    ============== */
 
   article {
     width: 90%;
+    p {
+      font-size: 1.5em;
+    }
+    li {
+      font-size: 2.5em;
+    }
   }
 
-  article p {
-    font-size: 2em;
-  }
-
-  article li {
-    font-size: 3em;
-  }
 
   /* ==============
-    Project sample on tablets
+    Homepage Project sample on tablets
    ============== */
 
   aside{
@@ -28,16 +35,6 @@
    /* ==============
      About Page
     ============== */
-
-   article {
-     width: 90%;
-     margin-top: 5px;
-   }
-
-   article p {
-     text-align: left;
-     font-size: 1em;
-   }
 
    .page-header {
      margin-left: 5%;
@@ -53,12 +50,7 @@
      About Page
     ============== */
 
-   article p {
-     font-size: 1.5em;
-   }
-
-
-   #coffee {
+   #me {
      width: 50%;
      margin: $photo-margin;
      float: left;
@@ -68,24 +60,30 @@
      About - Capabilities
     ============== */
 
-   #capabilities {
-       margin: $photo-margin;
-       margin-bottom: 0;
-   }
-
-   #design {
+   #skills {
        width: 35%;
        margin: $photo-margin;
        margin-left: 0;
        float: right;
    }
 
-   #development {
-       width: 35%;
+   #background {
+       width: 50%;
        margin: $photo-margin;
        margin-top: 0;
        float: right;
+   }
 
+   /* ==============
+     projects mobile
+    ============== */
+
+   #accordion {
+     font-size: 1.5em;
+   }
+
+   #accordion div {
+     height: 650px;
    }
 
 }

@@ -4,6 +4,10 @@
     margin-bottom: 60px;
   }
 
+  .logo {
+    font-size: 3em;
+  }
+
   /* ==============
     Article Desktop
    ============== */
@@ -23,16 +27,25 @@
   .page-header {
     margin-left: 20%;
   }
-  #capabilities {
-    font-size: 2.5em;
-  }
-  #development {
+  #background {
     padding: 2%;
-    font-size: 1.5em;
+    width: 35%;
+    margin-bottom: 10em;
   }
-  #design {
+  #skills {
+    margin-bottom: 20%;
     padding: 2%;
-    font-size: 1.5em;
   }
+  /* ==============
+    projects Desktop
+   ============== */
+#accordion {
+  width: 60%;
+}
+
+#accordion div {
+  height: 800px;
+}
+
 
 }
